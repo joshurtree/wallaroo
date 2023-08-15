@@ -1,0 +1,3 @@
+mkarchiso -v $IMG_PROFILE
+chown -R $IMG_USER:$IMG_GROUP out/*
+rm -rf work
